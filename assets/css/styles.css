@@ -11,6 +11,13 @@ body {
 
 /* ------------------------------------------------------------- */
 
+/* General */
+.text-center {
+    text-align: center;
+}
+
+/* ------------------------------------------------------------- */
+
 /* Header */
 .container-cabecalho {
     background-color: rgb(4, 35, 63);
@@ -46,7 +53,26 @@ body {
 
 /* ------------------------------------------------------------- */
 
-/* Content */
+/* Footer */
+footer {
+    background-color: rgb(2, 17, 31);
+    color: rgb(128, 128, 128);
+    padding: 80px;
+    text-align: center;
+}
+
+.container-footer a {
+    color: rgb(56, 162, 255);
+    text-decoration: none;
+}
+
+.container-footer a:hover {
+    color: rgb(255, 255, 255)
+}
+
+/* ------------------------------------------------------------- */
+
+/* Index - Content */
 .conteiner-content {
     background-color: rgb(5, 25, 42);
     overflow: auto;
@@ -80,7 +106,7 @@ body {
 
 /* ------------------------------------------------------------- */
 
-/* Services */
+/* Index - Service + Contact */
 .container-servicos-contato {
     background-color: rgb(8, 41, 70);
     padding: 80px;
@@ -111,21 +137,35 @@ body {
 
 /* ------------------------------------------------------------- */
 
-/* Footer */
-footer {
-    background-color: rgb(2, 17, 31);
-    color: rgb(128, 128, 128);
-    padding: 80px;
-    text-align: center;
+/* Servicos - Content */
+.container-servicos {
+    background-color: rgb(5, 25, 42);
+    font-size: 17.6px;
+    padding: 60px;
+    overflow: auto;
 }
 
-.container-footer a {
-    color: rgb(56, 162, 255);
-    text-decoration: none;
+.container-servicos h1 {
+    background-color: rgb(5, 25, 42);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
-.container-footer a:hover {
-    color: rgb(255, 255, 255)
+.container-servicos h3 {
+    color: rgb(32, 151, 255);
+    padding: 20px 0;
 }
 
+.container-servicos article {
+    float: center;
+    margin: auto;
+    width: 40%;
+}
+
+.container-servicos li {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
 /* ------------------------------------------------------------- */
