@@ -1,8 +1,131 @@
-footer a{
-    text-decoration: none;
-    color: blue;
+/* Init */
+* {
+    margin: 0;
+    padding: 0;
 }
 
-footer a:hover{
-    color: rgb(255, 0, 255)
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ------------------------------------------------------------- */
+
+/* Header */
+.container-cabecalho {
+    background-color: rgb(4, 35, 63);
+    padding: 20px;
+    text-align: center;
+}
+
+.container-cabecalho h3 {
+    color: rgb(56, 162, 255);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------------- */
+
+/* Nav */
+.container-navegacao {
+    background-color: rgb(6, 52, 93);
+    padding: 20px;
+    text-align: center;
+}
+
+.container-navegacao a {
+    color: rgb(124, 194, 255);
+    font-size: 24px;
+    margin: 0px 50px;
+    text-decoration: none;
+}
+
+.container-navegacao a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* ------------------------------------------------------------- */
+
+/* Content */
+.conteiner-content {
+    background-color: rgb(5, 25, 42);
+    overflow: auto;
+}
+
+.conteiner-content .servicos {
+    background-color: rgb(6, 31, 53);
+    border-radius: 10px;
+    float: center;
+    margin: 60px auto;
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+}
+
+.conteiner-content .servicos .icone {
+    margin-bottom: 10px;
+}
+
+.conteiner-content .servicos .texto {
+    color: rgb(129, 196, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.conteiner-content .servicos .texto .realce {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------- */
+
+/* Services */
+.container-servicos-contato {
+    background-color: rgb(8, 41, 70);
+    padding: 80px;
+    text-align: center;
+}
+
+.container-servicos-contato .botao {
+    padding: 60px;
+    text-align: center;
+}
+
+.container-servicos-contato .botao a {
+    background-color: rgb(0, 142, 185);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 19.2px;
+    margin: 10px auto;
+    max-width: 200px;
+    padding: 20px 60px;
+    text-decoration: none;
+}
+
+.container-servicos-contato .botao a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/* ------------------------------------------------------------- */
+
+/* Footer */
+footer {
+    background-color: rgb(2, 17, 31);
+    color: rgb(128, 128, 128);
+    padding: 80px;
+    text-align: center;
+}
+
+.container-footer a {
+    color: rgb(56, 162, 255);
+    text-decoration: none;
+}
+
+.container-footer a:hover {
+    color: rgb(255, 255, 255)
+}
+
+/* ------------------------------------------------------------- */
